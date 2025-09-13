@@ -38,6 +38,14 @@ class _GroceryListState extends State<GroceryList> {
 
       });
     }
+
+    if(response.body == 'null'){ // handling no data case
+      setState(() {
+        _isLoading=false; // we are not loading anymore.
+      });
+      return;
+    }
+
     final Map<String, dynamic>listData = json.decode(response.body);
 
     final List<GroceryItem> _loadedItems = []; // temp list
