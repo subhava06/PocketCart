@@ -36,14 +36,16 @@ The app allows you to add, view, and remove grocery items with categories, all s
 
 > Replace the placeholders below with your app screenshots.
 
-- **Landing / Home Page**  
-  ![Home Screenshot](screenshots/home.png)
+- **Landing / Home Page** ||          **Add New Item Page** ||             **Updating / Saving Item** 
+  <p align="center"> 
+ <img src="https://github.com/subhava06/PocketCart/blob/eb741688e18ad149569f3b643ba9c2334f46b752/Screenshot%202025-09-14%20203720.png?raw=true" width="30%" style="margin: 10px;" /> <img src="https://github.com/subhava06/PocketCart/blob/eb741688e18ad149569f3b643ba9c2334f46b752/Screenshot%202025-09-14%20203640.png?raw=true" width="30%" style="margin: 10px;" /> 
+ <img src="https://github.com/subhava06/PocketCart/blob/eb741688e18ad149569f3b643ba9c2334f46b752/Screenshot%202025-09-14%20202636.png?raw=true" width="30%" style="margin: 10px;" /> </p>
 
-- **Add New Item Page**  
-  ![Add Item Screenshot](screenshots/add_item.png)
+  
+ 
 
-- **Dismiss / Delete Item**  
-  ![Delete Item Screenshot](screenshots/delete.png)
+ 
+ 
 
 ---
 
@@ -57,18 +59,18 @@ The app allows you to add, view, and remove grocery items with categories, all s
 ---
 
 ## 📂 Project Structure
-
- lib/
-├── data/
-│ └── categories.dart # Category definitions
-├── models/
-│ ├── category.dart # Category model
-│ └── grocery_item.dart # Grocery item model
-├── widgets/
-│ ├── grocery_list.dart # Main list screen
-│ └── new_item.dart # Form to add new items
-└── main.dart # App entry point
-
+<p>
+ lib/ <br>
+├── data/ <br>
+│ └── categories.dart # Category definitions <br>
+├── models/ <br>
+│ ├── category.dart # Category model <br>
+│ └── grocery_item.dart # Grocery item model <br>
+├── widgets/ <br>
+│ ├── grocery_list.dart # Main list screen <br>
+│ └── new_item.dart # Form to add new items <br>
+└── main.dart # App entry point <br>
+</p>
 
 ---
 
